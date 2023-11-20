@@ -1,8 +1,8 @@
 # The-Complete-2023-Web-Development-Bootcamp
 By Dr. Angela Yu
 Udemy.com
-
-Front-End Web Development
+---------------------------------------------------------------------------------------------------------------------------
+--Front-End Web Development
 
   HTML 5
 
@@ -23,8 +23,8 @@ Front-End Web Development
   Bash Command Line
 
   Git, GitHub and Version Control
-
-Backend Web Development
+-----------------------------------------------------------------------------------------------------------------------------
+--Backend Web Development
 
   Node.js
 
