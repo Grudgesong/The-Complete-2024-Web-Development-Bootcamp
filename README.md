@@ -1,5 +1,5 @@
 # The-Complete-2023-Web-Development-Bootcamp
-By Dr. Angela Yu
+By Dr. Angela Yu | 
 Udemy.com
 ---------------------------------------------------------------------------------------------------------------------------
 --Front-End Web Development
