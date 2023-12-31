@@ -1,0 +1,52 @@
+ul{
+    list-style: none;
+    opacity: 1;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+
+.container{
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+  opacity: 0.7;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+#get{
+    background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+#get:hover {
+    opacity: 1;
+  }

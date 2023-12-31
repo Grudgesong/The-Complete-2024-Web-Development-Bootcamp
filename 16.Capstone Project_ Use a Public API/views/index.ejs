@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <title>Open Weather API</title>
+</head>
+<body>
+    <div class="container">
+        <div class="response-area">
+            <%= content %>
+          <ul>
+            <li>Longitude: <%= longitude %></li>
+            <li>Latitude: <%= latitude %></li>
+            <li><%= weather %></li>
+            <li>Temperature: <%= temperature %></li>
+            <li>Feels Like: <%= feels_like %></li>
+            <li>Temperature (min): <%= temp_min %></li>
+            <li>Temperature (max): <%= temp_max %></li>
+            <li>Humidity: <%= humidity %></li>
+            <li>Country: <%= country %></li>
+            <li>Timezone: <%= timezone %></li>
+          </ul>
+        </div>
+        <form id="myForm" method="get">
+          <label for="nameInput">City Name</label>
+          <input type="text" id="nameInput" name="city"><br>
+    
+          <input id="get" type="submit" value="GET" formaction="/get-weather">
+
+        </form>
+      </div>
+</body>
+</html>
